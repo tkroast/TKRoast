@@ -55,7 +55,7 @@ a:hover,
 a:focus {
     text-decoration: underline;
     color: #000;
-	/*background-color: #transparent;*/
+	background-color: #fff;
 }
 
 .light {
@@ -67,7 +67,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 .navbar-custom .navbar-brand {
@@ -117,11 +117,11 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #494949;
+    color: #fff;
 }
 
 @media(min-width:768px) {
@@ -138,7 +138,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #f0f0f0;
+        background: #fff;
     }
 }
 
